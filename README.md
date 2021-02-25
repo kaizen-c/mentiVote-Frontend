@@ -13,6 +13,10 @@ Push the code to Heroku using following command.
 
 
 ```sh
+git init
+git add .
+git commit -m "Initial Commit"
+heroku apps:create static-site
 Run git push heroku master
 ```
 
